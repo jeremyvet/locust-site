@@ -25,7 +25,7 @@ import ArtPage from "../customcomponents/art.svelte";
                     <Tabs.Trigger value="evidence">Evidence</Tabs.Trigger>
                     <Tabs.Trigger value="art">Art</Tabs.Trigger>
                 </Tabs.List>
-                <Tabs.Content value="home">
+                <Tabs.Content value="HomeTab">
                     <Card.Content class="flex justify-center w-full h-auto">
                         <div class="flex items-center content-center w-11/12 h-11/12">
                             <Card.Root value="HomeCard" class="w-full h-full">
