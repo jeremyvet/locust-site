@@ -2,7 +2,6 @@
 import "../app.css";
 import * as Tabs from "$lib/components/ui/tabs/index.js";
 import * as Card from "$lib/components/ui/card/index.js";
-import TabsContent from "$lib/components/ui/tabs/tabs-content.svelte";
 import ProcedurePage from "../customcomponents/procedure.svelte";
 import HomePage from "../customcomponents/home.svelte";
 import HistoricalPrecedentPage from "../customcomponents/historical-precedent.svelte";
