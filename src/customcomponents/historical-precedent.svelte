@@ -1,5 +1,7 @@
 <script>
-
+    import Titlebox from "./titlebox.svelte";
+    import TextBox from "./textbox.svelte";
+    import TitleAndDescription from "./titleanddescription.svelte";
 </script>
 
 <style>
@@ -11,5 +13,9 @@
 </style>
 
 <html lang="en">
-    <p>historical-precedent</p>
+    <Titlebox title="Historical Precedent" />
+    <TextBox description="Locust swarms have posed a significant threat to agricultural and food insecurity throughout history.  Locust swarms might seem like a distant problem, something out of an old story or something that only affects far-off lands. But in reality, the impact of locust swarms is immediate, vast, and can have global repercussions. When a swarm starts, it can last months, and in rare cases, years! A single locust swarm, one out of a few hundred to even a few thousand can eat the same amount of food as 5,000 people in one day. And in areas that already struggle with food insecurity, Locust swarms are devastating, and quickly escalate into a full-blown humanitarian crisis. But the locusts themselves are half of the battle. The pesticides used to kill the locusts are extremely toxic and in many cases, are ineffective. Chemicals like Organophosphates, Pyrethroids, and Fenitrothion have caused severe damage to non-target animals like honey bees and in combination with other chemicals, humans. While the swarm is devastating, the pesticides used alter the environment and hurt the ecosystem." />
+    <TitleAndDescription title="January 2016 Argentina Locust Swarm:" description="In 2016, over 100 locust swarms broke out in a small time period, causing a total of over 700,000 hectares to be affected. Interestingly, the government was warned of early signs of these swarms as early as July of 2015, although they did nothing to prevent it." />
+    <TitleAndDescription title="2019-2021 Desert Locust Swarm:" description="A rare event of two different cyclones impacting northern Africa in 2018 created perfect breeding conditions for locusts to build up and explode into a large-scale locust infestation in the Horn of Africa and Middle East. Due to the failure to detect these locusts breeding in the middle of uninhabited deserts, a plague of billions of locusts was unleashed on almost two dozen countries, plunging many already struggling countries into further despair through food insecurity." />
+    
 </html>

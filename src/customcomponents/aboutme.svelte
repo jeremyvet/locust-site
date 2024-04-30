@@ -1,11 +1,11 @@
 <script lang="ts">
-export var imagesource: string;
-export var header: string;
-export var description: string;
+    export var imagesource: string;
+    export var header: string;
+    export var description: string;
 </script>
 
 <style>
-    html{
+    body{
         margin: 0;
     }
     div{

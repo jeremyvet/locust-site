@@ -1,5 +1,6 @@
 <script lang="ts">
     import Aboutme from "./aboutme.svelte";
+    import Titlebox from "./titlebox.svelte";
 </script>
 
 <style>
@@ -19,19 +20,21 @@
         justify-content: center !important;
         gap: 10px;
     }
-    .titlesection {
-        height: min-content;
+    /* .titlesection {
+        min-height: min-content;
+        height: 20%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
+    .title {
+        font-size: 45px;
+    } */
 </style>
 
 <html lang="en">
-    <p>homepage</p>
-    <div class="titlesection">
-        <h1>About Us</h1>
-    </div>
+    <Titlebox title="About Us"></Titlebox>
     <div class="aboutmesection">
         <Aboutme
         imagesource="https://d1l3jc4magixw.cloudfront.net/cases/2008/NA_2008_2451/2008_NA_2008_2451_hero_1.jpg"

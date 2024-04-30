@@ -18,7 +18,7 @@ import ArtPage from "../customcomponents/art.svelte";
         <nav>
             <Tabs.Root value="HomeTab" class="w-[90%]">
                 <Tabs.List class="grid w-full grid-cols-6">
-                    <Tabs.Trigger value="home">Home</Tabs.Trigger>
+                    <Tabs.Trigger value="HomeTab">Home</Tabs.Trigger>
                     <Tabs.Trigger value="historical-precedent">Historical Precedent</Tabs.Trigger>
                     <Tabs.Trigger value="procedure">Procedure</Tabs.Trigger>
                     <Tabs.Trigger value="solution">Solution</Tabs.Trigger>
