@@ -8,8 +8,6 @@ import HistoricalPrecedentPage from "../customcomponents/historical-precedent.sv
 import SolutionPage from "../customcomponents/solution.svelte";
 import EvidencePage from "../customcomponents/evidence.svelte";
 import ArtPage from "../customcomponents/art.svelte";
-
-
 </script>
 
 <html class="dark" lang="en">

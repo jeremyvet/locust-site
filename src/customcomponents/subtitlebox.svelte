@@ -12,7 +12,7 @@
         justify-content: center;
     }
     .title {
-        font-size: 50px;
+        font-size: 35px;
     }
 </style>
 

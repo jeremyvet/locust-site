@@ -9,13 +9,12 @@ export var description: String;
         width: 100%;
         height: min-content;
         padding-top: 2%;
-        padding-bottom: 5%;
         align-items: center;
     }
     .text {
-        font-size: 18px;
-        width: 90%;
-        text-align: center;
+        font-size: 20px;
+        width: 70%;
+        text-align: left;
     }
 </style>
 

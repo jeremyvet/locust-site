@@ -1,14 +1,10 @@
 <script lang="ts">
     import Aboutme from "./aboutme.svelte";
+    import Textbox from "./textbox.svelte";
     import Titlebox from "./titlebox.svelte";
 </script>
 
 <style>
-    html{
-        margin: 0;
-        width: 100%;
-        height: 100%;
-    }
     .aboutmesection{
         width: 100%;
         height: 100%;
@@ -20,20 +16,15 @@
         justify-content: center !important;
         gap: 10px;
     }
-    /* .titlesection {
-        min-height: min-content;
-        height: 20%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .title {
-        font-size: 45px;
-    } */
 </style>
 
-<html lang="en">
+<body lang="en">
+    <Titlebox title="The Locust Problem"></Titlebox>
+    <Textbox description="Locust swarms aren't just a distant problem, something out of the bible or something that only affects far-off lands. 
+    In reality, the impact of locust swarms are immediate, vast, and can have global repercussions.
+    Locust swarms, one of a few hundred to a few thousand, contain millions, sometimes billions of locusts. The number of locusts in these swarms means one swarm can eat the same amount of food as 35,000 people in one day.
+    " />
+
     <Titlebox title="About Us"></Titlebox>
     <div class="aboutmesection">
         <Aboutme
@@ -52,4 +43,4 @@
         description="awesome"
         />
     </div>
-</html>
+</body>

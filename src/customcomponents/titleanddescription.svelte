@@ -9,14 +9,14 @@
         flex-direction: column;
         width: 100%;
         height: min-content;
-        padding-top: 2%;
-        padding-bottom: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
         align-items: center;
     }
     .text {
         font-size: 18px;
-        width: 90%;
-        text-align: center;
+        width: 70%;
+        text-align: left;
     }
     .titlesection {
         min-height: min-content;
@@ -28,14 +28,6 @@
     }
     .title {
         font-size: 30px;
-    }
-    .row {
-        display: flex;
-    }
-    
-    .column {
-        float: left;
-        flex: 50%;
     }
 </style>
 
