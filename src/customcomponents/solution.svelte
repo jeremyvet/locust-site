@@ -28,6 +28,6 @@
     <Number number="1" title="Find Land" description="We will communicate with farmers that are located within areas surrounding a known active locust swarm and work with them to get permission to spray their farms."/>
     <Number number="2" title="Prep Sprayers" description="We will prepare a small plane (our own company purchase or one that the farmer owns) with our custom-made fungal pesticide spraying device. We will attach all of the necessary equipment to allow the plane to spray, which includes the reservoir, hose and nozzle system, and a control interface from which the pilot can dispense the product."/>
     <Number number="3" title="Takeoff" description="After this, our pilot will enter the plane and take off with a full tank of pesticide and instructions on where to spray the product."/>
-    <Number number="4" title="Spraying" description="There will be a ground correspondent to provide the pilot with a second pair of eyes, and together they will coordinate when the device is activated and spray pesticides over the correct areas."/>
-    <Number number="5" title="Return" description="Once the spraying has been completed, the plane can touch down safely and all the equipment can be removed and transferred to the next property."/>
+    <Number number="4" title="Spraying" description="A ground correspondent will provide the pilot with a second pair of eyes. Together, they will coordinate when the device is activated and spray pesticides over the correct areas using a line of communication like a walkie-talkie."/>
+    <Number number="5" title="Return" description="Once the spraying has been completed, the plane can touch down safely, and all the equipment can be removed and transferred to the next property."/>
 </body>
