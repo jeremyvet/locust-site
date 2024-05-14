@@ -18,9 +18,10 @@
     }
     .left {
         display: flex;
+        flex-direction: column;
         width: 50%;
         align-items: center;
-        justify-content: end;
+        justify-content: center;
     }
     .right {
         display: flex;
@@ -28,7 +29,7 @@
         gap: 10px;
         width: 50%;
         align-items: center;
-        justify-content: center;
+        justify-content: end;
         /* padding-left: 15%; */
     }
     .image {
@@ -54,12 +55,12 @@
 <body>
     <div class="wrapper">
         <div class="left">
-            <!-- svelte-ignore a11y-img-redundant-alt -->
-            <img class="image" src={imagesrc} alt="image"/>
-        </div>
-        <div class="right">
             <span class="title">{title}</span>
             <span class="description">{description}</span>
+        </div>
+        <div class="right">
+            <!-- svelte-ignore a11y-img-redundant-alt -->
+            <img class="image" src={imagesrc} alt="image"/>
         </div>
     </div>
 </body>
