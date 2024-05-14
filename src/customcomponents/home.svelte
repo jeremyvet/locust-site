@@ -2,6 +2,7 @@
     import Aboutme from "./aboutme.svelte";
     import Textbox from "./textbox.svelte";
     import Titlebox from "./titlebox.svelte";
+    import Leftbox from "./leftbox.svelte";
 </script>
 
 <style>
@@ -24,6 +25,8 @@
     In reality, the impact of locust swarms are immediate, vast, and can have global repercussions.
     Locust swarms, one of a few hundred to a few thousand, contain millions, sometimes billions of locusts. The number of locusts in these swarms means one swarm can eat the same amount of food as 35,000 people in one day.
     " />
+
+    <Leftbox imagesrc="/locust.png" title="test" description="test" />
 
     <Titlebox title="About Us"></Titlebox>
     <div class="aboutmesection">
