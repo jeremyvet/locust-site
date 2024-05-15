@@ -6,10 +6,18 @@
     import Number from "./number.svelte";
     import Leftbox from "./leftbox.svelte";
     import Rightbox from "./rightbox.svelte";
+    import Doublebox from "./doublebox.svelte";
 </script>
 
 <style>
-    
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center !important;
+        gap: 10px;
+    }
 </style>
 
 <html lang="en">
@@ -39,4 +47,12 @@
     <Number number="1" title="Timelines:" description="Coordinating with multiple land owners and managing the logistics of equipping planes and conducting sprays in a timely manner"/>
     <Number number="2" title="Project Management:" description="Utilizing new principles of project management, including web storyboards, site maps, job duties, and time constraints, to ensure smooth execution."/>
     <Number number="3" title="Best Practices:" description="Adopting best practices for communication, community-interaction, and feedback to improve our solution."/>
+
+    <div class="wrapper">
+        <Doublebox class1="org" header="Old Prototype" description="Our old prototype consisted of a container, nozzles, and pumps. This design is not very good and doesn't reflect our idea for our prototype." src="./old_prototype.png"/>
+        <Doublebox class1="pyr" header="Final Prototype" description="Our final prototype shows off our ideas in a very convincing and understandable manner. You can easily see the container, tubes, nozzles, and pumps in a way that would mimic how our solution would look like if used in real life." src="./render1.png"/>
+    </div>
+
+    <Gap></Gap>
+
 </html>
